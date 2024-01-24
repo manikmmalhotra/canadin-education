@@ -73,7 +73,7 @@ export default function SimpleSlider() {
             <div className="testimonial-01 media">
               <div className="avatar">
                 <img
-                  src={`https://nairo.ibthemespro.com/img/testimonial/${val.imageName}.jpg`}
+                  src={`img/award/me.png`}
                   alt="review comments"
                 ></img>
               </div>
