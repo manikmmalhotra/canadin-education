@@ -51,7 +51,7 @@ const Header = (ligh) => {
 
           <Scrollspy
             className="nav nav-menu"
-            items={["home", "about", "resume", "work", "blog", "contactus",]}
+            items={["home", "about", "team", "work", "blog", "contactus",]}
             currentClassName="active"
             offset={-30}
           >
@@ -96,15 +96,15 @@ const Header = (ligh) => {
             <li>
               <a
                 className="nav-link"
-                href="#resume"
+                href="#team"
                 data-tip
-                data-for="RESUME"
+                data-for="TEAM"
                 onClick={handleClick}
               >
               <FiUser />
                  
                 <ReactTooltip
-                  id="RESUME"
+                  id="TEAM"
                   place="right"
                   type="dark"
                   effect="float"
@@ -170,7 +170,7 @@ const Header = (ligh) => {
                 </ReactTooltip>
               </a>
             </li>
-            <li>
+            {/* `<li>
               {
                 document.getElementsByClassName("theme-light").length >7 ? <a
                 className="nav-link"
@@ -186,7 +186,7 @@ const Header = (ligh) => {
                 <FaSun   />
               </a>
               }
-            </li>
+            </li>` */}
           </Scrollspy>
         </div>
       </header>

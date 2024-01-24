@@ -1,6 +1,6 @@
 import React from "react";
 import TextLoop from "react-text-loop";
-import Homee from "../../assets/img/homee.png";
+import Homee from "../../assets/img/clg.png";
 
 const conctInfo = {
   phone: "778-917-1621, 604-749-2977, 236-777-6356",
@@ -64,7 +64,7 @@ const Slider = () => {
                 >
                   <a
                     className="px-btn px-btn-white"
-                    href="mailto:mail%20to:Deepakshoor0006@gmail.com"
+                    href="mailto:mail%20to:info@canadineducation.ca"
                     download
                   >
                     {sliderContent.btnText}

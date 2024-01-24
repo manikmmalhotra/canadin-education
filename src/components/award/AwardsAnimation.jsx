@@ -16,7 +16,7 @@ const AwardContnet = [
 const Awards = () => {
   return (
     <>
-      <div className="row">
+      <div  className="row">
         {AwardContnet.map((val, i) => (
           <div
             className="col-lg-6 m-15px-tb"

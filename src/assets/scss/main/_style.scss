@@ -2,7 +2,6 @@
 ---------------------*/
 .section {
   padding: 100px 0;
-  position: relative;
   @include down-md {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -170,7 +169,6 @@
     top: 0;
     background-repeat: no-repeat;
     background-position: top left;
-    margin-right: 20px;
     @media screen and (max-width: 1199px) {
       width: 84vw;
       opacity: 0.6;

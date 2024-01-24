@@ -20,17 +20,13 @@ const ContactInfo = () => {
 
           <li className="media">
             <i className="icon icon-envelope"></i>
-            <span className="media-body"> Devadeshmukh204@gmail.com</span>
-          </li>
-          <li className="media">
-            <i className="icon icon-envelope"></i>
-            <span className="media-body"> Deepakshoor0006@gmail.com</span>
+            <span className="media-body">info@canadineducation.ca</span>
           </li>
           {/* End li */}
 
           <li className="media">
             <i className="icon icon-phone"></i>
-            <span className="media-body">778-917-1621, 604-749-2977, 236-777-6356</span>
+            <span className="media-body">778-917-1621</span>
           </li>
           {/* End li */}
         </ul>

@@ -9,11 +9,11 @@ import logo from "../../assets/img/logo.png";
 const About = () => {
   return (
     <>
-       <section id="about" className="section theme-light dark-bg">
+       <section className="section theme-light dark-bg">
         <div className="container">
           <div className="row align-items-center justify-content-center">
             <div className="col-md-6 col-lg-4">
-              <div className="about-me">
+              <div id="about" className="about-me">
                 <div className="img">
                   <div className="img-in">
                     <img src={logo} alt="about" />
@@ -60,14 +60,14 @@ const About = () => {
             }}
           ></div>
           {/* End separated */}
-          <div className="title">
+          <div  className="title">
             <h3>What We do?</h3>
           </div>
           <Services />
           {/* End .row */}
 
           {/* separated */}
-          <div
+          <div id="team"
             className="separated"
             style={{
               backgroundImage: `url(${
@@ -77,7 +77,7 @@ const About = () => {
           ></div>
           {/* End separated */}
 
-          <div className="title">
+          <div  className="title">
             <h3>Our Team</h3>
           </div>
           <Awards />
