@@ -43,9 +43,9 @@ const Header = (ligh) => {
       <header className={click ? "header-left menu-open" : "header-left "}>
         <div className="scroll-bar">
           <div className="hl-top">
-            <div className="hl-logo">
+            {/* <div className="hl-logo">
               <img src={logo}   />
-            </div>
+            </div> */}
           </div>
           {/* End htl-top */}
 

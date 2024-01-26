@@ -38,6 +38,19 @@
       text-align: center;
     }
   }
+
+  .social-cons{
+    width: 2000px !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .hl-logo{
+    width: 20px;
+  }
+
   .nav-menu {
     padding-top: 45px;
     padding-bottom: 45px;

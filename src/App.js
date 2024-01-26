@@ -11,14 +11,6 @@ const App = () => {
   }, []);
   return (
     <>
-      <AnimatedCursor
-        innerSize={8}
-        outerSize={44}
-        color="158, 0, 16"
-        outerAlpha={0.3}
-        innerScale={0.7}
-        outerScale={1.4}
-      />
       <ScrollToTop />
       <AllRoutes />
     </>

@@ -1,6 +1,7 @@
 import React from "react";
 import TextLoop from "react-text-loop";
 import Homee from "../../assets/img/clg.png";
+import logo from "../../assets/img/logo1.png";
 
 const conctInfo = {
   phone: "778-917-1621, 604-749-2977, 236-777-6356",
@@ -25,6 +26,11 @@ const Slider = () => {
               {conctInfo.email}
             </a>
           </div> */}
+          <div className="hl-top">
+            <div className="hl-logo">
+              <img src={logo}   />
+            </div>
+          </div>
         </div>
         {/* End hp-top-fixed */}
 

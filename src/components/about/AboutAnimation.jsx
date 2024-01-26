@@ -3,6 +3,14 @@ import Social from "../Social";
 import Testimonials from "../testimonial/TestimonialAnimation";
 import Services from "../service/ServiceAnimation";
 import Awards from "../award/AwardsAnimation";
+import {
+  FaFacebookF,
+  FaTwitter,
+  FaInstagram,
+  FaLinkedinIn,
+  
+} from "react-icons/fa";
+import { SiGmail } from "react-icons/si";
 
 import logo from "../../assets/img/logo.png";
 
@@ -18,7 +26,7 @@ const About = () => {
                   <div className="img-in">
                     <img src={logo} alt="about" />
                   </div>
-                  <Social />
+                  
                   {/* End social icon */}
                 </div>
                 {/* End img */}
@@ -44,7 +52,25 @@ const About = () => {
                   <p>
                   Our experts bring extensive experience in education and immigration, ensuring a smooth transition for students and professionals. We stay updated on evolving policies and educational landscapes to provide clients with the knowledge needed to make informed decisions at every step of their educational journey.
                   </p>
+                  
                 </div>
+                <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",width:"50%"}} className="social-cons">
+                    <a style={{fontSize:"23px",color:"#3b5998"}}>
+                      <FaFacebookF />
+                    </a>
+                    <a style={{fontSize:"23px",color:"#406e94"}} href="https://www.instagram.com/canadineducation">
+                      <FaInstagram />
+                    </a>
+                    <a style={{fontSize:"23px",color:"#007bb6"}}>
+                      <FaLinkedinIn />
+                    </a>
+                    <a style={{fontSize:"23px",color:"#55acee"}}>
+                      <FaTwitter />
+                    </a>
+                    <a style={{fontSize:"23px",color:"#9e0010"}}>
+                      <SiGmail />
+                    </a>
+                  </div>
               </div>
             </div>
             {/* End col */}
