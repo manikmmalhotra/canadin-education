@@ -10,7 +10,7 @@ const conctInfo = {
 
 const sliderContent = {
   name: "Canadin Education",
-  description: `Embrace the journey of knowledge, where every step with us becomes a milestone toward a brighter future. In the vast realm of Canadian education, let your aspirations soar, guided by the wisdom of Canadin Education. Your dreams, our expertise – a partnership destined for success.`,
+  description: `Embrace the journey of knowledge, where every step with us becomes a milestone towards a brighter future. In the vast realm of Canadian education, let your aspirations soar, guided by the wisdom of Canadin Education. Your dreams, our expertise – a partnership destined for success.`,
   btnText: "Contact Us",
 };
 

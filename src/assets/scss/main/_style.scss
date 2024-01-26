@@ -208,13 +208,13 @@
       }
     }
     h1 {
-      font-size: 58px;
+      font-size: 64px;
       font-weight: 700;
       line-height: 1;
       margin: 0 0 15px;
-      color: #9e0010;
+      color: #000;
       .theme-light & {
-        color: #9e0010;
+        color: #000;
       }
       @include down-lg {
         font-size: 70px;
@@ -230,7 +230,7 @@
       text-transform: capitalize;
       margin-bottom: 15px;
       .theme-light & {
-        color: #df962f;
+        color: $px-theme;
         line-height: 1.2;
       }
       @include down-sm {
