@@ -24,6 +24,15 @@ const HomeOne = () => {
       <Slider />
       {/* End Slider Section */}
 
+      <div
+            className="separated"
+            style={{
+              backgroundImage: `url(${
+                process.env.PUBLIC_URL + "img/border-dark.png"
+              })`,
+            }}
+          ></div>
+
       <About />
       {/* End About Section */}
 

@@ -106,8 +106,7 @@
 
   .hb-top-fixed {
     position: absolute;
-    width: 180px;
-    padding: 20px 30px 0;
+    width: 120px;
     top: 0;
     left: 0;
     right: 0;
@@ -209,13 +208,13 @@
       }
     }
     h1 {
-      font-size: 66px;
+      font-size: 58px;
       font-weight: 700;
       line-height: 1;
       margin: 0 0 15px;
-      color: $px-white;
+      color: #9e0010;
       .theme-light & {
-        color: $px-dark;
+        color: #9e0010;
       }
       @include down-lg {
         font-size: 70px;
@@ -231,7 +230,7 @@
       text-transform: capitalize;
       margin-bottom: 15px;
       .theme-light & {
-        color: $px-theme;
+        color: #df962f;
         line-height: 1.2;
       }
       @include down-sm {

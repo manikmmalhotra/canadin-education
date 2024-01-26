@@ -20,6 +20,7 @@ const About = () => {
        <section className="section theme-light dark-bg">
         <div className="container">
           <div className="row align-items-center justify-content-center">
+            
             <div className="col-md-6 col-lg-4">
               <div id="about" className="about-me">
                 <div className="img">
@@ -30,10 +31,7 @@ const About = () => {
                   {/* End social icon */}
                 </div>
                 {/* End img */}
-                <div className="info">
-                  <h3>Canadin Education</h3>
-                  <h5>Make It Happen</h5>
-                </div>
+                
                 {/* End info */}
               </div>
               {/* End about-me */}
